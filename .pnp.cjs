@@ -27,7 +27,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["express", "npm:4.21.2"]\
+          ["express", "npm:4.21.2"],\
+          ["uuid", "npm:11.0.5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -146,7 +147,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["crossfit-wod-api", "workspace:."],\
-          ["express", "npm:4.21.2"]\
+          ["express", "npm:4.21.2"],\
+          ["uuid", "npm:11.0.5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -784,6 +786,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../Users/DoziemOkemini/AppData/Local/Yarn/Berry/cache/utils-merge-npm-1.0.1-363bbdfbca-10c0.zip/node_modules/utils-merge/",\
         "packageDependencies": [\
           ["utils-merge", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uuid", [\
+      ["npm:11.0.5", {\
+        "packageLocation": "../../../Users/DoziemOkemini/AppData/Local/Yarn/Berry/cache/uuid-npm-11.0.5-685b7c1023-10c0.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:11.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
