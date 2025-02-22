@@ -2,6 +2,7 @@ const recordService = require("../services/recordService");
 
 const getRecordForWorkout = (req, res) => {
     try {
+        const workoutData= null;
         const recordForWork = recordService.getRecordForWorkout();
         res.send({ status: 400, data: recordForWork })
     }catch (error) {
